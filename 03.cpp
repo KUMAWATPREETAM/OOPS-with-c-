@@ -1,3 +1,4 @@
+// Q03) Write a program in C++ to display the size of all the data types.
 #include<iostream>
 #include <typeinfo>
 using namespace std;

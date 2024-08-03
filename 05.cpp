@@ -1,3 +1,4 @@
+// Q05) Write a program in C++ to multiply two floating-point numbers.
 #include<iostream>
 using namespace std;
 int main(){

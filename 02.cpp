@@ -1,6 +1,6 @@
+// Q02) Write a program in C++ to take input for all data types (int, float, double, char) and display their values.
 #include <iostream>
 using namespace std;
-
 int main() {
     // Declaration of variables of different data types
     int integerVar;

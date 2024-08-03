@@ -1,3 +1,4 @@
+// Q06) Write a program in C++ to compute the quotient and the remainder of two integers.
 #include<iostream>
 using namespace std;
 int main(){
