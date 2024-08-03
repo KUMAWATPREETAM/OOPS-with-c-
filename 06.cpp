@@ -14,6 +14,5 @@ remainder =  dividend % divisor;
 cout << "Quotient : " << quotient << endl;
 cout << "Remainder : " << remainder << endl;
 
-
     return 0;
 }
