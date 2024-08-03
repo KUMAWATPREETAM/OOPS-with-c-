@@ -25,11 +25,5 @@ int main(){
         cout << "Please enter different number You enter same number is  :" << a << " " << b <<" " << c; 
     }
     
-
-    
-
-
-
-
     return 0;
 }
