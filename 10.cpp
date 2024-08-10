@@ -2,7 +2,9 @@
 #include<iostream>
 using namespace std;
 int main(){
+//declaration
     char ch;
+//take input from user
     cout << "Enter a character to check it is vowel or not :";
     cin >> ch;
 
@@ -18,12 +20,12 @@ int main(){
     case 'I':
     case 'O':
     case 'U':
-
+// execute if a character is a vowel
         cout << "Enter character '" << ch << "' is a vowel ";
         break;
-    
+// execute if a character is a consonant
     default:
-        cout << "Enter character '" << ch << "' is a consonent ";
+        cout << "Enter character '" << ch << "' is a consonant ";
         break;
     }
 

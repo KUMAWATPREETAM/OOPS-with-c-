@@ -1,25 +1,27 @@
-// Q03) Write a program in C++ to display the size of all the data types.
+// Q03) Write a program in C++ to display the data type of all the data types.
 #include<iostream>
 #include <typeinfo>
 using namespace std;
 int main(){
-    int intval;
-    char charval;
-    float floatval;
-    double doubleval;
+ //declaration 
+    int int_val;
+    char char_val;
+    float float_val;
+    double double_val;
+ //take input from user 
     cout << "Enter a integer value :";
-    cin >> intval; 
+    cin >> int_val; 
     cout << "Enter a character value :";
-    cin >> charval;
+    cin >> char_val;
     cout << "Enter a float value :";
-    cin >> floatval;
+    cin >> float_val;
     cout << "Enter a double value :";
-    cin >> doubleval;   
-
-cout << "Integer value is :" << intval << " and its data type is : " << typeid(intval).name() << endl;
-cout << "Float value is :" << floatval << " and its data type is : " << typeid(floatval).name() << endl;
-cout << "Character is :" << charval << " and its data type is : " << typeid(charval).name() << endl;
-cout << "Double value is :" << doubleval << "and its data type is :" << typeid(doubleval).name() << endl;
+    cin >> double_val;   
+// print the output 
+    cout << "Integer value is :" << int_val << " and its data type is : " << typeid(int_val).name() << endl;
+    cout << "Float value is :" << float_val << " and its data type is : " << typeid(float_val).name() << endl;
+    cout << "Character is :" << char_val << " and its data type is : " << typeid(char_val).name() << endl;
+    cout << "Double value is :" << double_val << "and its data type is :" << typeid(double_val).name() << endl;
     return 0;
 }
 

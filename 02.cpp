@@ -2,13 +2,13 @@
 #include <iostream>
 using namespace std;
 int main() {
-    // Declaration of variables of different data types
+// Declaration of variables of different data types
     int integerVar;
     float floatVar;
     double doubleVar;
     char charVar;
 
-    // Take input from the user
+// Take input from the user
     cout << "Enter an integer: ";
     cin >> integerVar;
     
@@ -21,7 +21,7 @@ int main() {
     cout << "Enter a character: ";
     cin >> charVar;
 
-    // Display the values
+// Display the values
     cout << "\nYou entered:" << endl;
     cout << "Integer: " << integerVar << endl;
     cout << "Float: " << floatVar << endl;
