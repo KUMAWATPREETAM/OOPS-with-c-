@@ -23,8 +23,5 @@ int main(){
     cout << "Character is :" << char_val << " and its  size  is : " << sizeof(char_val) << endl;
     cout << "Double value is :" << double_val << "and its size  is :" << sizeof(double_val) << endl;
 
-
-
-
     return 0;
 }
