@@ -1,4 +1,4 @@
-              ASSIGNMENT 01 <br>
+              ASSIGNMENT 01 
 
 Q01) Write a program in C++ to print "Hello World". <br>
 Q02) Write a program in C++ to take input for all data types (int, float, double, char) and display their values.<br>
@@ -12,7 +12,7 @@ Q09) Write a program in C++ to take three integers as input and find the largest
 Q10) Write a program in C++ to check if an input character is a vowel or not.<br>
 Q011) Write a program in C++ to display the size of all the data types.<br>
 
-              ASSIGNMENT 02 <br>
+              ASSIGNMENT 02 
 
 Q11) Write a program in C++ to take an integer from the user and check if it is even or odd.<br>
 Q12) Write a program in C++ to input a year from the user and check for leap year.<br>
