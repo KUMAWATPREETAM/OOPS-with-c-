@@ -30,23 +30,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-// #include<stdio.h>
-// int main(){
-//     int num;
-// printf("Enter an int value :");
-// scanf("%d",&num);
-// printf("Enter value is %d",num);
-
-
-//     return 0;
-// }
