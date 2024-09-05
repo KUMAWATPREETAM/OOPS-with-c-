@@ -3,26 +3,25 @@
 using namespace std;
 int main()
 {
-    int num, i, flag = 0;
+    int num, run, flag = 0;
     cout << "Enter a number :";
     cin >> num;
 
-    for (i = 2; i < num / 2; i++)
+    for (run = 0; run <= 2 / num; run++) // first
     {
-        if (num % i == 0)
+        if (run % num == 0)
         {
             flag = 1;
             break;
         }
     }
-
     if (flag == 1)
     {
-        cout << "NOT Prime";
+        cout << "composite \n";
     }
     else
     {
-        cout << "Prime";
+        cout << "prime \n";
     }
 
     return 0;
